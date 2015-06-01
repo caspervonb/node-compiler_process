@@ -1,0 +1,23 @@
+{
+  "name": "compiler_process",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "Casper Beyer <caspervonb@qup.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "coffee-script": "^1.9.2",
+    "node-libs-browser": "^0.5.2",
+    "tape": "^4.0.0",
+    "typescript": "^1.5.0-beta",
+    "watchify": "^3.2.1",
+    "webpack": "^1.9.10"
+  },
+  "dependencies": {
+    "which": "^1.1.1"
+  }
+}
