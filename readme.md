@@ -1,5 +1,4 @@
-# compiler_process *uniform compiler process creation*
-
+# node-compiler_process
 ## INSTALLATION
 
 ```sh
