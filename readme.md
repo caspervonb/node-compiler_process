@@ -22,7 +22,7 @@ compiler.spawn('webpack', args, function(error, ps) {
 
 ## DOCUMENTATION
 
-[See the manuals](man/readme.md)
+[See the manuals](man/readme.md).
 
 ## SUPPORT
 
@@ -34,8 +34,8 @@ compiler.spawn('webpack', args, function(error, ps) {
 
 ## RELEASES
 
-All notable changes are recorded in the [changelog](changelog.md)
+[See the changelog](changelog.md).
 
 ## LICENSE
 
-Copyright (c) 2015 Casper Beyer under the [MIT License](license.md)
+The project is licensed under the [MIT License](license.md).
