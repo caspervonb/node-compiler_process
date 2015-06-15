@@ -16,14 +16,14 @@ var args = compiler.options('webpack', {
   outfile: 'output.js'
 }).concat('input.js');
 
-compiler.spawn('webpack', args, function(error, exe) {
-  // ...
+compiler.spawn('webpack', args, function(error, ps) {
+  console.log('watching for file changes...');
 });
 ```
 
 ## DOCUMENTATION
 
-See the [introduction](doc/readme.md) and [reference manual](doc/api/readme.md)
+[See the manuals](man/readme.md)
 
 ## SUPPORT
 
