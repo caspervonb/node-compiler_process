@@ -1,8 +1,8 @@
-const compiler = require('..');
-const path = require('path');
-const test = require('tape');
+var compiler = require('..');
+var path = require('path');
+var test = require('tape');
 
-const commands = [
+var commands = [
   'babel',
   'coffee',
   'tsc',
