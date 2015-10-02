@@ -19,7 +19,9 @@ commands.forEach(function(command) {
       test.ok(command);
     });
   });
+});
 
+commands.forEach(function(command) {
   test('spawn ' + command, function(test) {
     test.plan(2);
 
@@ -29,7 +31,9 @@ commands.forEach(function(command) {
       exe.kill();
     });
   });
+});
 
+commands.forEach(function(command) {
   test('options for ' + command, function(t) {
     t.plan(1);
 
