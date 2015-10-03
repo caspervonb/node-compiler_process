@@ -25,10 +25,10 @@ commands.forEach(function(command) {
   test('spawn ' + command, function(test) {
     test.plan(2);
 
-    compiler.spawn(command, function(error, exe) {
+    compiler.spawn(command, function(error, ps) {
       test.error(error);
-      test.ok(exe.pid);
-      exe.kill();
+      test.ok(ps.pid);
+      ps.kill();
     });
   });
 });
